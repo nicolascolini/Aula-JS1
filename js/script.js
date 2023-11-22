@@ -3,7 +3,7 @@ function jogo() {
     var nome = prompt("Qual seu nome");
     alert("Bem-vindo ao jogo" + nome);
     
-    var usuarioEscolha = prompt("Escolha: pedra, papel ou tesoura?").toLowerCase();
+    var usuarioEscolha = prompt("Escolha: pedra, papel ou tesoura?");
   
     if (usuarioEscolha === "pedra" || usuarioEscolha === "papel" || usuarioEscolha === "tesoura") {
       
